@@ -1,0 +1,196 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+a{
+  text-decoration:none;
+}
+
+.top-wrapper{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+}
+
+.top-container{
+  color:white;
+  text-align:center;
+  padding-top:180px;
+}
+
+.top-container h1{
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+}
+
+.top-container p{
+  opacity:0.7;
+  margin-bottom:15px;
+}
+
+.btn{
+  color:white;
+  opacity:0.8;
+  padding:8px 24px;
+  display:inline-block;
+  border-radius:4px;
+}
+
+.btn:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+.signup{
+  background-color:#239b76;
+  margin:15px 0px;
+}
+
+.facebook{
+  background-color:#3b5998;
+  margin-bottom:100px;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+
+.fab{
+  margin-right:5px;
+  font-size:15px;
+}
+
+header{
+  height:65px;
+  background-color:rgba(34,49,52,0.9);
+  position:fixed;
+  top:0px;
+  z-index:10;
+  width:100%;
+}
+
+.header-container{
+  width:1170px;
+  margin:0 auto;
+}
+
+.header-left{
+  width:124px;
+  padding-top:20px;
+  float:left;
+}
+
+.header-right{
+  background-color:rgba(255,255,255,0.3);
+  color:white;
+  float:right;
+  line-height:65px;
+  padding:0 25px;
+  transition:all 0.5s;
+}
+
+.header-right:hover{
+  cursor:pointer;
+  background-color:rgba(255,255,255,0.5);
+}
+
+.lesson-wrapper{
+  height:580px;
+  background-color:#f7f7f7;
+}
+
+.lesson-container{
+  text-align:center;
+  width:1170px;
+  margin:0 auto;
+}
+
+.lesson-heading{
+  color:#5f5d60;
+  font-weight:normal;
+  padding:80px 0 50px 0;
+}
+
+.lesson{
+  float:left;
+  width:25%;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-icon p{
+  color:white;
+  position:absolute;
+  top:90px;
+  width:100%;
+}
+
+.lesson-text{
+  font-size:13px;
+  color:#b3aeb5;
+  padding-top:15px;
+  width:80%;
+  margin:0 auto;
+}
+
+.message-container{
+  text-align:center;
+}
+
+.message-container h2{
+  color:#5f5d60;
+  font-weight:normal;
+  padding-top:80px;
+}
+
+.message-container h3{
+  color:#5f5d60;
+  font-weight:normal;
+  padding-bottom:50px;
+}
+
+.message-btn{
+  background-color:#5dca88;
+  color:white;
+  opacity:0.8;
+  padding:15px 40px;
+  display:inline-block;
+  margin-bottom:80px;
+  box-shadow:0 7px #1a7940;
+  border-radius:4px;
+}
+
+.message-btn:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+.message-btn:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+footer{
+  border-top:1px solid #eee;
+}
+
+.footer-container{
+  width:1170px;
+  margin:0 auto;
+}
+
+.footer-container img{
+  width:124px;
+  padding-top:30px;
+}
+
+.footer-container p{
+  color:#b3aeb5;
+  font-size:12px;
+  padding-bottom:30px;
+}
